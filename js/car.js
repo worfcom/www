@@ -46,11 +46,48 @@ $(document).ready(function(){
 	  $(this).parent().find("ul").slideToggle(600);
 	});
 	
+	
+
+	
+		//eq 0  默认展开！！
+	$("#goodscat .cati:eq(0)").find(".catittle").addClass("selcat").removeClass("catittle");
+	
+	$(".selcat:eq(0)").toggle(function () { 
+	$(this).removeClass("selcat").addClass("catittle"); }, function () { $(this).removeClass("catittle").addClass("selcat"); 
+	});	
+	
+	$("#goodscat .cati:eq(0)").find("ul").show();
+	 
+
 $(".catittle").toggle(function () { 
 	$(this).removeClass("catittle").addClass("selcat"); }, function () { $(this).removeClass("selcat").addClass("catittle"); 
 	});
+
+	 // end  eq 0 
+	 
+	 // 当前连接颜色改变  当前展开
+	 var url =location.pathname+location.search;
+ 		 url=url.replace("/","");
+	
+  $(".cati li").each(function(){
+  if($(this).find("a").attr("href")==url){
+	 $(this).css("background-color","#E4E4E4");
+	 $("#goodscat .cati:eq(0)").find("ul").css("display","none");
+	 $(this).parent().show();
+	 	  } 
+  });
+
+	
+	
+	
+	
 });
 
+
+
+
+
+// choose  cartype
 function callcsys(cbid){
   $("#cx").addClass("selected").removeClass("select");
   $("#box").slideUp(400);
