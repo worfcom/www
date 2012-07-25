@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:35:"D:/wamp/www/themes/car/category.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:42:"D:/wamp/www/themes/car/library/history.lbi";i:4;s:45:"D:/wamp/www/themes/car/library/goods_list.lbi";i:5;s:40:"D:/wamp/www/themes/car/library/pages.lbi";i:6;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1343111559;s:8:"maketime";i:1343107959;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:35:"D:/wamp/www/themes/car/category.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:42:"D:/wamp/www/themes/car/library/history.lbi";i:4;s:45:"D:/wamp/www/themes/car/library/goods_list.lbi";i:5;s:40:"D:/wamp/www/themes/car/library/pages.lbi";i:6;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1343115332;s:8:"maketime";i:1343111732;}<!DOCTYPE html>
 <html>
 <head>
 <meta name="Generator" content=" " />
@@ -270,8 +270,7 @@ var compare_no_goods = "您没有选定任何需要比较的商品或者比较�
 var btn_buy = "购买";
 var is_cancel = "取消";
 var select_spe = "请选择商品属性";
-</script>
-<form name="selectPageForm" action="/category.php" method="get">
+</script><form name="selectPageForm" action="/category.php" method="get">
  <div id="pager" class="pagebar">
   <span class="f_l f6" style="margin-right:10px;">总计 <b>3</b>  个记录</span>
       
