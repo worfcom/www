@@ -1,15 +1,13 @@
-<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:32:"D:/wamp/www/themes/car/index.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:43:"D:/wamp/www/themes/car/library/index_ad.lbi";i:4;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1343150595;s:8:"maketime";i:1343146995;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:35:"D:/wamp/www/themes/car/category.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:42:"D:/wamp/www/themes/car/library/history.lbi";i:4;s:45:"D:/wamp/www/themes/car/library/goods_list.lbi";i:5;s:40:"D:/wamp/www/themes/car/library/pages.lbi";i:6;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1343150583;s:8:"maketime";i:1343146983;}<!DOCTYPE html>
+<html>
 <head>
 <meta name="Generator" content=" " />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Keywords" content="ECSHOP演示站" />
-<meta name="Description" content="ECSHOP演示站" />
-<title>CAR</title>
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<title>车用便捷式GPS导航_GPS导航/DVD及配件_CAR</title>
 <link href="themes/car/style.css" rel="stylesheet" type="text/css" />
-<link rel="alternate" type="application/rss+xml" title="RSS|CAR" href="feed.php" />
-<script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/index.js"></script></head>
+<script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/global.js"></script></head>
 <body>
 <div class="body">
 <link href="/themes/car/css/common.css" rel="stylesheet" type="text/css" />
@@ -127,9 +125,38 @@ var process_request = "正在处理您的请求...";
 </ul>
 </div>
 </div>
-</div></div>
+</div><div class="box" id='history_div'>
+ <div class="box_1">
+  <div class="lefttitle"><span>浏览历史</span></div>
+  <div class="boxCenterList clearfix" id='history_list'>
+    554fcae493e564ee0dc75bdf2ebf94cahistory|a:1:{s:4:"name";s:7:"history";}554fcae493e564ee0dc75bdf2ebf94ca  </div>
+ </div>
+</div>
+<div class="blank5"></div>
+<script type="text/javascript">
+if (document.getElementById('history_list').innerHTML.replace(/\s/g,'').length<1)
+{
+    document.getElementById('history_div').style.display='none';
+}
+else
+{
+    document.getElementById('history_div').style.display='block';
+}
+function clear_history()
+{
+Ajax.call('user.php', 'act=clear_history',clear_history_Response, 'GET', 'TEXT',1,1);
+}
+function clear_history_Response(res)
+{
+document.getElementById('history_list').innerHTML = '您已清空最近浏览过的商品';
+}
+</script>
+    
+  </div>
+  
+  
 <div class="iright">
-<div class="guide">
+  <div class="guide">
 <a href="index.php">&nbsp;</a>
 <div class="hov">
 <a href="">商城</a>
@@ -137,33 +164,45 @@ var process_request = "正在处理您的请求...";
 <a href="">问答</a>
 </div>
 </div>
-<div class="flv">
-<div class="iflash">
-  <script type="text/javascript">
-  var swf_width=560;
-  var swf_height=300;
-  </script>
-  <script type="text/javascript" src="data/flashdata/pinkfocus/cycle_image.js"></script>
-</div>
-<div class="inews">
-<div class="ctypeimg">
-<img src="/data/ctypepic/ccc.png">
-</div>
-<div class="inewt">
-<span>资讯热点</span>
-</div>
-<ul>
-<li><a href="">奥迪新A4L或增3.0TFSI车型</a></li>
-<li><a href="">都市精英之旅将于9月举行</a></li>
-<li><a href="">2012款奥迪A4L正式上市</a></li>
-<li><a href="">改款奥迪A4L国内谍照首曝</a></li>
-<li><a href="">L优惠1万元现金看车团活动</a></li>
-<li><a href="">奥迪新A4L或增3.0TFSI车型</a></li>
-</ul>
-</div>
-</div>
+<div class="blank5"></div>
+	 
+	  	  <div class="box">
+		 <div class="box_1">
+						<div class="screeBox">
+			  <strong>品牌：</strong>
+														<span>全部</span>
+																			<a href="category.php?id=4&amp;cid=2&amp;brand=1&amp;price_min=610&amp;price_max=670">保时捷</a>&nbsp;
+												</div>
+									<div class="screeBox">
+			<strong>价格：</strong>
+											<a href="category.php?id=4&amp;cid=2&amp;price_min=0&amp;price_max=0">全部</a>&nbsp;
+															<a href="category.php?id=4&amp;cid=2&amp;price_min=430&amp;price_max=490">430&nbsp;-&nbsp;490</a>&nbsp;
+															<span>610&nbsp;-&nbsp;670</span>
+															<a href="category.php?id=4&amp;cid=2&amp;price_min=670&amp;price_max=730">670&nbsp;-&nbsp;730</a>&nbsp;
+										</div>
+								 </div>
+		</div>
+		<div class="blank5"></div>
+	  	 
+   
 <div class="glist">
-<div class="gtittle"><div class="gtleft"></div><div class="gtcenter">专用商品推荐</div><div class="gtright"></div></div>
+<div class="gtittle"><div class="gtleft"></div><div class="gtcenter">
+  <span>商品列表</span><a name='goods_list'></a>
+  <form method="GET" class="sort" name="listform" style="float:right; margin-top:8px;">
+  <a href="category.php?category=4&cid=2&brand=0&price_min=610&price_max=670&filter_attr=0&page=1&sort=goods_id&order=ASC#goods_list"><img src="themes/car/images/goods_id_DESC.gif" alt="按上架时间排序"></a>
+  <a href="category.php?category=4&cid=2&brand=0&price_min=610&price_max=670&filter_attr=0&page=1&sort=shop_price&order=ASC#goods_list"><img src="themes/car/images/shop_price_default.gif" alt="按价格排序"></a>
+  <a href="category.php?category=4&cid=2&brand=0&price_min=610&price_max=670&filter_attr=0&page=1&sort=last_update&order=DESC#goods_list"><img src="themes/car/images/last_update_default.gif" alt="按更新时间排序"></a>
+  <input type="hidden" name="category" value="4" />
+  <input type="hidden" name="display" value="grid" id="display" />
+  <input type="hidden" name="brand" value="0" />
+  <input type="hidden" name="price_min" value="610" />
+  <input type="hidden" name="price_max" value="670" />
+  <input type="hidden" name="filter_attr" value="0" />
+  <input type="hidden" name="page" value="1" />
+  <input type="hidden" name="sort" value="goods_id" />
+  <input type="hidden" name="order" value="DESC" />
+  </form>
+</div><div class="gtright"></div></div>
 <div class="gcon">
 <ul>
 <li class="goodsbox">
@@ -171,67 +210,59 @@ var process_request = "正在处理您的请求...";
 <a href="goods.php?id=1&amp;cid=2" target="_blank"><img src="images/201206/thumb_img/1_thumb_G_1339141187420.jpg" alt="指南者S800导航仪"></a>
 </div>
 <div class="goodstit">
-<a href="goods.php?id=1&amp;cid=2" target="_blank"  title="指南者S800导航仪">指南者S800导航仪</a>
+<a href="goods.php?id=1&amp;cid=2" target="_blank">指南者S800导航仪</a>
 </div>
 <p class="goodsdes">720p/最高可支持至32GB内存容量,卡尼沃X18最高可支……</p>
 <p class="goodsprice">
 <span class="shopprice">￥628</span>
 <span class="marketprice">￥754</span>
-<span class="buynum">已有<span class="bnum">0</span>人评论</span>
-</p>
-</li>
-<li class="goodsbox">
-<div class="goodsimg">
-<a href="goods.php?id=2&amp;cid=2" target="_blank"><img src="images/201207/thumb_img/2_thumb_G_1341474779584.jpg" alt="e道航5寸GPS导航仪"></a>
-</div>
-<div class="goodstit">
-<a href="goods.php?id=2&amp;cid=2" target="_blank"  title="e道航5寸GPS导航仪">e道航5寸GPS导航仪</a>
-</div>
-<p class="goodsdes">行车电脑 汽车车载GPS导航仪一体机</p>
-<p class="goodsprice">
-<span class="shopprice">￥438</span>
-<span class="marketprice">￥526</span>
-<span class="buynum">已有<span class="bnum">0</span>人评论</span>
-</p>
+<span class="buynum">已有<span class="bnum">0</span>人评论</span></p>
 </li>
 </ul>
 </div>
 </div>
-<div class="glist">
-<div class="gtittle"><div class="gtleft"></div><div class="gtcenter">通用商品热卖推荐</div><div class="gtright"></div></div>
-<div class="gcon">
-<li class="goodsbox">
-<div class="goodsimg">
-<a href="goods.php?id=1&amp;cid=2" target="_blank"><img src="images/201206/thumb_img/1_thumb_G_1339141187420.jpg" alt="指南者S800导航仪"></a>
+<div class="blank5"></div>
+<script type="Text/Javascript" language="JavaScript">
+<!--
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+//-->
+</script>
+<script type="text/javascript">
+window.onload = function()
+{
+  Compare.init();
+  fixpng();
+}
+var button_compare = '';
+var exist = "您已经选择了%s";
+var count_limit = "最多只能选择4个商品进行对比";
+var goods_type_different = "\"%s\"和已选择商品类型不同无法进行对比";
+var compare_no_goods = "您没有选定任何需要比较的商品或者比较的商品数少于 2 个。";
+var btn_buy = "购买";
+var is_cancel = "取消";
+var select_spe = "请选择商品属性";
+</script>
+<form name="selectPageForm" action="/category.php" method="get">
+ <div id="pager" class="pagebar">
+  <span class="f_l f6" style="margin-right:10px;">总计 <b>1</b>  个记录</span>
+      
+      </div>
+</form>
+<script type="Text/Javascript" language="JavaScript">
+<!--
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+//-->
+</script>
+  </div>  
+  
 </div>
-<div class="goodstit">
-<a href="goods.php?id=1&amp;cid=2" target="_blank"  title="指南者S800导航仪">指南者S800导航仪</a>
-</div>
-<p class="goodsdes">720p/最高可支持至32GB内存容量,卡尼沃X18最高可支……</p>
-<p class="goodsprice">
-<span class="shopprice">￥628</span>
-<span class="marketprice">￥754</span>
-<span class="buynum">已有<span class="bnum">0</span>人评论</span>
-</p>
-</li>
-<li class="goodsbox">
-<div class="goodsimg">
-<a href="goods.php?id=2&amp;cid=2" target="_blank"><img src="images/201207/thumb_img/2_thumb_G_1341474779584.jpg" alt="e道航5寸GPS导航仪"></a>
-</div>
-<div class="goodstit">
-<a href="goods.php?id=2&amp;cid=2" target="_blank"  title="e道航5寸GPS导航仪">e道航5寸GPS导航仪</a>
-</div>
-<p class="goodsdes">行车电脑 汽车车载GPS导航仪一体机</p>
-<p class="goodsprice">
-<span class="shopprice">￥438</span>
-<span class="marketprice">￥526</span>
-<span class="buynum">已有<span class="bnum">0</span>人评论</span>
-</p>
-</li>
-</div>
-</div>
-</div>
-</div>
+<div class="blank5"></div>
 <div id="footer1">
 <div id="fot1">
 <p><img  src="themes/car/images/x0.gif"/></p>

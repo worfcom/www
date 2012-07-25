@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:34:"D:/wamp/www/themes/car/article.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:56:"D:/wamp/www/themes/car/library/article_category_tree.lbi";i:4;s:46:"D:/wamp/www/themes/car/library/filter_attr.lbi";i:5;s:46:"D:/wamp/www/themes/car/library/price_grade.lbi";i:6;s:48:"D:/wamp/www/themes/car/library/goods_related.lbi";i:7;s:42:"D:/wamp/www/themes/car/library/history.lbi";i:8;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1342535834;s:8:"maketime";i:1342532234;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:34:"D:/wamp/www/themes/car/article.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:56:"D:/wamp/www/themes/car/library/article_category_tree.lbi";i:4;s:46:"D:/wamp/www/themes/car/library/filter_attr.lbi";i:5;s:46:"D:/wamp/www/themes/car/library/price_grade.lbi";i:6;s:48:"D:/wamp/www/themes/car/library/goods_related.lbi";i:7;s:42:"D:/wamp/www/themes/car/library/history.lbi";i:8;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1343200357;s:8:"maketime";i:1343196757;}<!DOCTYPE html>
 <html>
 <head>
 <meta name="Generator" content=" " />
@@ -26,7 +26,6 @@ var process_request = "正在处理您的请求...";
 <a href="javascript:void(0);">变更车型</a>
 </div>
 <div class="icar">
-欢迎“<span class="icname">2012款 TFSI 手动基本型</span>"车主大驾光临
 </div>
 <div class="lac">
 554fcae493e564ee0dc75bdf2ebf94camember_info|a:1:{s:4:"name";s:11:"member_info";}554fcae493e564ee0dc75bdf2ebf94ca<div class="lrg">
@@ -57,12 +56,12 @@ var process_request = "正在处理您的请求...";
 <div class="catp">GPS导航/DVD及配件</div>
 </div>
 <ul>
-<li><a href="category.php?id=4&amp;cid=3">车用便捷式GPS导航<span>(3)</span></a></li>
-<li><a href="category.php?id=5&amp;cid=3">DVD导航<span>(0)</span></a></li>
-<li><a href="category.php?id=6&amp;cid=3">后视镜导航GPS<span>(0)</span></a></li>
-<li><a href="category.php?id=7&amp;cid=3">跟踪器<span>(0)</span></a></li>
-<li><a href="category.php?id=8&amp;cid=3">GPS支架<span>(0)</span></a></li>
-<li><a href="category.php?id=9&amp;cid=3">GPS充电器<span>(0)</span></a></li>
+<li><a href="category.php?id=4&amp;cid=">车用便捷式GPS导航<span>(3)</span></a></li>
+<li><a href="category.php?id=5&amp;cid=">DVD导航<span>(0)</span></a></li>
+<li><a href="category.php?id=6&amp;cid=">后视镜导航GPS<span>(0)</span></a></li>
+<li><a href="category.php?id=7&amp;cid=">跟踪器<span>(0)</span></a></li>
+<li><a href="category.php?id=8&amp;cid=">GPS支架<span>(0)</span></a></li>
+<li><a href="category.php?id=9&amp;cid=">GPS充电器<span>(0)</span></a></li>
 </ul>
 </div>
 <div class="cati">
@@ -70,11 +69,11 @@ var process_request = "正在处理您的请求...";
 <div class="catp">车用电子电器</div>
 </div>
 <ul>
-<li><a href="category.php?id=16&amp;cid=3">车载冰箱/冷暖箱<span>(0)</span></a></li>
-<li><a href="category.php?id=17&amp;cid=3">车载氧吧/空气净化器<span>(0)</span></a></li>
-<li><a href="category.php?id=18&amp;cid=3">车载吸尘器<span>(0)</span></a></li>
-<li><a href="category.php?id=19&amp;cid=3">电源转换器<span>(0)</span></a></li>
-<li><a href="category.php?id=20&amp;cid=3">车载手机充电器<span>(0)</span></a></li>
+<li><a href="category.php?id=16&amp;cid=">车载冰箱/冷暖箱<span>(0)</span></a></li>
+<li><a href="category.php?id=17&amp;cid=">车载氧吧/空气净化器<span>(0)</span></a></li>
+<li><a href="category.php?id=18&amp;cid=">车载吸尘器<span>(0)</span></a></li>
+<li><a href="category.php?id=19&amp;cid=">电源转换器<span>(0)</span></a></li>
+<li><a href="category.php?id=20&amp;cid=">车载手机充电器<span>(0)</span></a></li>
 </ul>
 </div>
 <div class="cati">
@@ -82,12 +81,12 @@ var process_request = "正在处理您的请求...";
 <div class="catp">车载影音/MP3/音响</div>
 </div>
 <ul>
-<li><a href="category.php?id=10&amp;cid=3">车载MP3/MP4<span>(0)</span></a></li>
-<li><a href="category.php?id=11&amp;cid=3">车载CD机<span>(0)</span></a></li>
-<li><a href="category.php?id=12&amp;cid=3">汽车喇叭/高音头<span>(0)</span></a></li>
-<li><a href="category.php?id=13&amp;cid=3">汽车功放<span>(0)</span></a></li>
-<li><a href="category.php?id=14&amp;cid=3">汽车音箱/低音炮<span>(0)</span></a></li>
-<li><a href="category.php?id=15&amp;cid=3">车用显示器<span>(0)</span></a></li>
+<li><a href="category.php?id=10&amp;cid=">车载MP3/MP4<span>(0)</span></a></li>
+<li><a href="category.php?id=11&amp;cid=">车载CD机<span>(0)</span></a></li>
+<li><a href="category.php?id=12&amp;cid=">汽车喇叭/高音头<span>(0)</span></a></li>
+<li><a href="category.php?id=13&amp;cid=">汽车功放<span>(0)</span></a></li>
+<li><a href="category.php?id=14&amp;cid=">汽车音箱/低音炮<span>(0)</span></a></li>
+<li><a href="category.php?id=15&amp;cid=">车用显示器<span>(0)</span></a></li>
 </ul>
 </div>
  
@@ -174,7 +173,7 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
          </div>
                    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议                           <div style="padding:8px; margin-top:15px; text-align:left; border-top:1px solid #ccc;">
          
-                      下一篇:<a href="article.php?id=12&amp;cid=3" class="f6">交易条款</a><br />
+                      下一篇:<a href="article.php?id=12&amp;cid=" class="f6">交易条款</a><br />
                     
                    </div>
       </div>
@@ -188,32 +187,32 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
 <div id="fot1">
 <p><img  src="themes/car/images/x0.gif"/></p>
 <ul >
-<li><a href="article.php?id=7&amp;cid=3">认证商家</a></li>
-<li><a href="article.php?id=8&amp;cid=3">如实描述</a></li>
-<li><a href="article.php?id=9&amp;cid=3">限时发货</a></li>
-<li><a href="article.php?id=10&amp;cid=3">正品保证</a></li>
+<li><a href="article.php?id=7&amp;cid=">认证商家</a></li>
+<li><a href="article.php?id=8&amp;cid=">如实描述</a></li>
+<li><a href="article.php?id=9&amp;cid=">限时发货</a></li>
+<li><a href="article.php?id=10&amp;cid=">正品保证</a></li>
 </ul>
 </div>
 <div id="fot1">
 <p><img  src="themes/car/images/x1.gif"/></p>
 <ul >
-<li><a href="article.php?id=11&amp;cid=3">用户协议</a></li>
-<li><a href="article.php?id=12&amp;cid=3">交易条款</a></li>
-<li><a href="article.php?id=13&amp;cid=3">购物流程</a></li>
+<li><a href="article.php?id=11&amp;cid=">用户协议</a></li>
+<li><a href="article.php?id=12&amp;cid=">交易条款</a></li>
+<li><a href="article.php?id=13&amp;cid=">购物流程</a></li>
 </ul>
 </div>
 <div id="fot1">
 <p><img  src="themes/car/images/x2.gif"/></p>
 <ul >
-<li><a href="article.php?id=14&amp;cid=3">网银支付</a></li>
-<li><a href="article.php?id=15&amp;cid=3">支付宝</a></li>
+<li><a href="article.php?id=14&amp;cid=">网银支付</a></li>
+<li><a href="article.php?id=15&amp;cid=">支付宝</a></li>
 </ul>
 </div>
 <div id="fot1">
 <p><img  src="themes/car/images/x3.gif"/></p>
 <ul >
-<li><a href="article.php?id=16&amp;cid=3">顺丰速运</a></li>
-<li><a href="article.php?id=17&amp;cid=3">快递邮寄</a></li>
+<li><a href="article.php?id=16&amp;cid=">顺丰速运</a></li>
+<li><a href="article.php?id=17&amp;cid=">快递邮寄</a></li>
 </ul>
 </div>
 <div id="fot5">

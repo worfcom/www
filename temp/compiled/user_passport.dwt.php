@@ -21,7 +21,7 @@
    <form name="formLogin" action="user.php" method="post" onSubmit="return userLogin()">
         <table width="100%" border="0" align="left" cellpadding="3" cellspacing="5">
           <tr>
-            <td width="15%" align="right"><?php echo $this->_var['lang']['label_username']; ?></td>
+            <td width="15%" align="right">Email</td>
             <td width="85%"><input name="username" type="text" size="25" class="inputBg" /></td>
           </tr>
           <tr>
@@ -87,13 +87,6 @@
    <div class="regtitle"></div>
     <form action="user.php" method="post" name="formUser" onsubmit="return register();">
       <table width="100%"  border="0" align="left" cellpadding="5" cellspacing="3">
-        <tr>
-          <td width="13%" align="right"><?php echo $this->_var['lang']['label_username']; ?></td>
-          <td width="87%">
-          <input name="username" type="text" size="25" id="username" onblur="is_registered(this.value);" class="inputBg"/>
-            <span id="username_notice" style="color:#FF0000"> *</span>
-          </td>
-        </tr>
         <tr>
           <td align="right"><?php echo $this->_var['lang']['label_email']; ?></td>
           <td>
@@ -169,10 +162,10 @@
       <td>
     <select onchange="callbrand(this.value)" name="cb_name">
     <option value="" selected='selected'>请选择品牌</option>
-    <?php $_from = $this->_var['cb']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cb_0_16330500_1342530099');if (count($_from)):
-    foreach ($_from AS $this->_var['cb_0_16330500_1342530099']):
+    <?php $_from = $this->_var['cb']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cb_0_28184200_1343195825');if (count($_from)):
+    foreach ($_from AS $this->_var['cb_0_28184200_1343195825']):
 ?>
-    <option value="<?php echo $this->_var['cb_0_16330500_1342530099']['id']; ?>"><?php echo $this->_var['cb_0_16330500_1342530099']['alpha']; ?>&nbsp;<?php echo $this->_var['cb_0_16330500_1342530099']['cbrand_name']; ?></option>
+    <option value="<?php echo $this->_var['cb_0_28184200_1343195825']['id']; ?>"><?php echo $this->_var['cb_0_28184200_1343195825']['alpha']; ?>&nbsp;<?php echo $this->_var['cb_0_28184200_1343195825']['cbrand_name']; ?></option>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
     </select>
      <select onchange="callsys(this.value)" name="csys_id" id='cx'>
