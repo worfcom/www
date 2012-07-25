@@ -433,7 +433,6 @@ function check_email_callback(result)
 function register()
 {
   var frm  = document.forms['formUser'];
-  var username  = Utils.trim(frm.elements['username'].value);
   var email  = frm.elements['email'].value;
   var ctype_id  = frm.elements['ctype_id'].value;
   var password  = Utils.trim(frm.elements['password'].value);
@@ -451,18 +450,6 @@ function register()
   var msg = "";
   // 检查输入
   var msg = '';
-  if (username.length == 0)
-  {
-    msg += username_empty + '\n';
-  }
-  else if (username.match(/^\s*$|^c:\\con\\con$|[%,\'\*\"\s\t\<\>\&\\]/))
-  {
-    msg += username_invalid + '\n';
-  }
-  else if (username.length < 3)
-  {
-    //msg += username_shorter + '\n';
-  }
   
     if (ctype_id.length == 0)
   {
